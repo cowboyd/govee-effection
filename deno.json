@@ -1,0 +1,19 @@
+{
+  "lock": false,
+  "lint": {
+    "rules": {
+      "exclude": ["prefer-const", "require-yield"]
+    }
+  },
+  "compilerOptions": {
+    "lib": [
+      "deno.ns",
+      "esnext",
+      "dom",
+      "deno.unstable"
+    ]
+  },
+  "imports": {
+    "effection": "https://deno.land/x/effection@3.0.0/mod.ts"
+  }
+}
